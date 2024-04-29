@@ -7,7 +7,7 @@ version: '1.7.9'
 config-version: 2
 
 # This setting configures which "profile" dbt uses for this project.
-profile: 'my_snowflake_profile'
+profiles: 'my_snowflake_profile'
 
 
 # These configurations specify where dbt should look for different types of files.
