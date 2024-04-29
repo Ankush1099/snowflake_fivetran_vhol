@@ -2,7 +2,7 @@
 # Name your project! Project names should contain only lowercase characters
 # and underscores. A good package name should reflect your organization's
 # name or the intended use of these models
-name: 'snowflake_fivetran_vhol'
+name: 'my_snowflake_profile'
 version: '1.7.9'
 config-version: 2
 
