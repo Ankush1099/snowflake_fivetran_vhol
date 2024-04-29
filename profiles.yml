@@ -1,5 +1,4 @@
-profiles:
-  my_snowflake_profile:
+ my_snowflake_profile:
     target: dev
     outputs:
       dev:
