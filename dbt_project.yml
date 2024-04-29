@@ -8,15 +8,22 @@ config-version: 2
 
 # This setting configures which "profile" dbt uses for this project.
 #profile: 'default'
-account: https://nd32774.ca-central-1.aws.snowflakecomputing.com
-database: PC_FIVETRAN_DB
-password: V2solutions121@
-role: sysadmin
-schema: GOOGLE_ADS_DEMO
-threads: 1
-type: snowflake
-user: ANKUSH1099
-warehouse: COMPUTE_WH
+
+profiles:
+  my_snowflake_profile:
+    target: dev
+    outputs:
+      dev:
+        type: snowflake
+        account: https://nd32774.ca-central-1.aws.snowflakecomputing.com
+        user: ANKUSH1099
+        password: V2solutions121@
+        warehouse: COMPUTE_WH
+        database: PC_FIVETRAN_DB
+        schema: GOOGLE_ADS_DEMO
+        role: sysadmin
+        threads: 1
+
 
 # These configurations specify where dbt should look for different types of files.
 # The `source-paths` config, for example, states that models in this project can be
