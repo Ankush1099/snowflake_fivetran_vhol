@@ -1,0 +1,14 @@
+profiles:
+  my_snowflake_profile:
+    target: dev
+    outputs:
+      dev:
+        type: snowflake
+        account: https://nd32774.ca-central-1.aws.snowflakecomputing.com
+        user: ANKUSH1099
+        password: V2solutions121@
+        warehouse: COMPUTE_WH
+        database: PC_FIVETRAN_DB
+        schema: GOOGLE_ADS_DEMO
+        role: sysadmin
+        threads: 1
