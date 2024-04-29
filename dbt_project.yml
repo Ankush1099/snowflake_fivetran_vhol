@@ -4,10 +4,13 @@
 # name or the intended use of these models
 name: 'snowflake_fivetran_vhol'
 version: '1.7.9'
-config-version: 2
+# Configuration specific to the profiles defined in profiles.yml
+config:
+  my_snowflake_profile:  
+    materialized: table  
 
 # This setting configures which "profile" dbt uses for this project.
-profile: 'default'
+#profile: 'default'
 
 
 # These configurations specify where dbt should look for different types of files.
