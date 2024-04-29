@@ -4,6 +4,7 @@
 # name or the intended use of these models
 name: 'snowflake_fivetran_vhol'
 version: '1.7.9'
+config-version: 2
 
 # This setting configures which "profile" dbt uses for this project.
 profile: 'default'
