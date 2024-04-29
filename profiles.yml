@@ -6,7 +6,7 @@ profiles:
         type: snowflake
         account: https://nd32774.ca-central-1.aws.snowflakecomputing.com
         user: ANKUSH1099
-        password: V2solutions121@
+        password: XXX
         warehouse: COMPUTE_WH
         database: PC_FIVETRAN_DB
         schema: GOOGLE_ADS_DEMO
