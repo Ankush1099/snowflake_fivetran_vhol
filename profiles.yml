@@ -5,9 +5,9 @@
         type: snowflake
         account: https://nd32774.ca-central-1.aws.snowflakecomputing.com
         user: ANKUSH1099
-        password: XXX
+        password: XXXX
         warehouse: COMPUTE_WH
         database: PC_FIVETRAN_DB
         schema: GOOGLE_ADS_DEMO
-        role: sysadmin
+        role: ACCOUNTADMIN
         threads: 1
